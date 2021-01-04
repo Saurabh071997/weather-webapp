@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kufam:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap");
 
 body {
   /* font-family: sans-serif; */
-  font-family: "Kufam", cursive;
+  font-family: "Montserrat Alternates", sans-serif;
   color: #e5e5e5;
   margin: 0rem;
   padding: 0rem;
-  min-height: 700px;
+  /* height: 700px; */
 
   background: linear-gradient(to right, #ad5389, #3c1053);
 }
@@ -15,6 +15,7 @@ body {
 .header {
   margin: 0rem auto;
   max-width: 600px;
+  padding-top: 2rem;
 }
 
 .heading {
@@ -22,7 +23,7 @@ body {
   margin: 1rem auto;
   text-align: center;
   padding: 0.5rem;
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: bold;
 
   animation-name: headset;
@@ -48,21 +49,24 @@ body {
 }
 
 #txt-input {
-  max-width: "50%";
+  max-width: "60%";
   margin: 1rem auto;
   padding: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   border-radius: 0.5rem;
+  border: 1px solid white;
   background: transparent;
   color: white;
 }
 
 #btn {
   margin: 0.5rem auto;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   padding: 0.25rem 0.75rem;
   border-radius: 0.5rem;
+  border: 2px solid white;
+  box-shadow: 5px 5px 10px gray;
   font-weight: bold;
   color: #e5e5e5;
   background: transparent;
@@ -81,14 +85,14 @@ body {
 }
 
 #section-city {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   margin: 0.2rem auto;
   padding: 0.25rem;
 }
 
 #section-weather-main {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin: 0rem auto;
 }
 
@@ -100,7 +104,7 @@ body {
 
 #section-weather-det {
   max-width: 250px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin: 0rem auto;
   text-align: center;
 }
@@ -120,21 +124,21 @@ body {
 .section-template-left {
   margin-right: 0.25rem;
   text-align: left;
-  width: 100px;
+  width: 150px;
 }
 
 .section-template-right {
   margin-left: 0.25rem;
   text-align: right;
-  width: 100px;
+  width: 150px;
 }
 
 .section-title {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .section-det {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 hr {
