@@ -23,7 +23,7 @@ body {
   margin: 1rem auto;
   text-align: center;
   padding: 0.5rem;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: bold;
 
   animation-name: headset;
@@ -149,14 +149,15 @@ hr {
   margin: 1rem auto;
 }
 
-.footer {
-  margin: 0%;
-  padding: 1rem 0rem;
-  height: 10vh;
-}
-
 .footer hr {
   width: 40%;
+}
+
+.footer {
+  text-align: center;
+  margin: 0rem auto 2rem auto;
+  width: 100%;
+  bottom: 0;
 }
 
 .footer-container {
@@ -164,6 +165,7 @@ hr {
   margin: 1rem auto;
   display: flex;
   flex-direction: column;
+  padding: 0rem;
 }
 
 .footer-social-link-bar {
@@ -171,7 +173,7 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0rem auto;
+  margin: 0.5rem auto 0rem auto;
 }
 
 .footer-social-link {
