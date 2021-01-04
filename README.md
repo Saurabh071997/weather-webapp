@@ -21,8 +21,8 @@ For this application **[Current Weather](https://openweathermap.org/)** api was 
 ## <span style="font-size:2rem">**Screenshots**</span>
 <br>
 
-![](/src/images/image.PNG)
-![](/src/images/image2.png)
+![](src/images/image1.PNG)
+![](src/images/image2.PNG)
 
 <br><br>
 Read more about **[DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)**
